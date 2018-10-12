@@ -1,11 +1,11 @@
-<h2>An example MVC application authenticating against Azure AD using WSFederation without OWIN middleware
+<h2>An example MVC application authenticating against Azure AD using WSFederation without OWIN middleware</h2>
 
 This example is an old way of doing things and I'm providing this for others who might have to migrate old code to use Azure AD but don't have time to rework their code. OWIN middleware is now the preferred way of handling the authentication.
 
 I've based this example on Thinktecture's IdentityServer 2 sample, MVC and WCF RP (SAML), with a slight change to use Azure AD and no ClaimsService. Thank you to Thinktecture for keeping those samples available and for all the work they do. https://github.com/IdentityServer/IdentityServer2/tree/master/samples 
 
 
-<b>Azure AD Configuration
+<b>Azure AD Configuration</b>
 
 1. Create a new App Registration in your Azure AD Tenant.
 2. Under the App's settings set the App ID URI to whatever you want. I set it to http://samlpoc
